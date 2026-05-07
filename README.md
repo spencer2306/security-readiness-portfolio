@@ -31,9 +31,15 @@ My active repositories are private because they contain proprietary product logi
 # Project 1: BoaOps Readiness Engine
 
 **Type:** Private MVP / Security readiness platform  
+
 **Role:** Founder, product owner, security architect, builder  
+
 **Status:** Active MVP  
-**Demo:** Available by request  
+
+**Demo:** https://drive.google.com/file/d/1_pCSkfOkBc07zE9z1-h_Xx0hTilop8Xt/view?usp=sharing
+
+The demo is sanitized and intentionally excludes proprietary logic, customer data, sensitive implementation details, and private repository code.
+
 **Repository:** Private due to proprietary product logic  
 
 ## Problem
@@ -50,9 +56,9 @@ Core capabilities include:
 
 - Structured security intake
 - Framework selection and mapping
-- Evidence intake concepts
-- Control mapping concepts
-- Readiness scoring concepts
+- Evidence intake workflows
+- Control mapping logic
+- Readiness scoring approach
 - AI-assisted compliance Q&A
 - Dynamic artifact generation
 - OSCAL-style structured output concepts
@@ -84,7 +90,7 @@ BoaOps is designed to support or generate:
 - Evidence intake workflows
 - Compliance mapping logic
 - AI assistant workflows
-- Readiness scoring concepts
+- Readiness scoring approach
 - Secure session/data-handling concepts
 
 ## What I Can Walk Through
@@ -103,8 +109,15 @@ BoaOps is designed to support or generate:
 # Project 2: ATO Accelerator
 
 **Type:** Private MVP / RMF and ATO automation workflow  
+
 **Role:** Security automation builder  
-**Status:** AWS-hosted demo available by request  
+
+**Status:** AWS-hosted demo / Private MVP
+
+**Demo:** https://drive.google.com/file/d/1qqFjIKqrebFh3PSE3VAN4NjB5YMvUas6/view?usp=drive_link
+
+The demo is sanitized and intentionally excludes proprietary logic, customer data, sensitive implementation details, and private repository code.
+
 **Repository:** Private  
 
 ## Problem
