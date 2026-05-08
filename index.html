@@ -1,10 +1,413 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>BoaOps Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spencer Karenbauer | Security Engineering Portfolio</title>
+  <meta name="description" content="Security engineering portfolio for Spencer Karenbauer, highlighting readiness automation, compliance automation, DevSecOps, RMF, FedRAMP, CMMC, NIST 800-53, cloud security, and vulnerability management work." />
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --panel-2: #0f1724;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --border: #30363d;
+      --accent: #58a6ff;
+      --accent-2: #d29922;
+      --link: #58a6ff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #111d2f 0%, var(--bg) 42%, #070a10 100%);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+    }
+
+    .page {
+      width: min(1100px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    .content {
+      background: rgba(22, 27, 34, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: clamp(24px, 5vw, 56px);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+    }
+
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin-top: 1.7em;
+      margin-bottom: 0.65em;
+      color: #ffffff;
+    }
+
+    h1:first-child {
+      margin-top: 0;
+      font-size: clamp(2rem, 4vw, 3rem);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 { font-size: clamp(1.85rem, 3vw, 2.45rem); }
+    h2 { font-size: clamp(1.45rem, 2.2vw, 1.9rem); }
+    h3 { font-size: 1.25rem; color: #f0f6fc; }
+
+    p { margin: 0 0 1rem; }
+    strong { color: #ffffff; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 32px;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    th, td {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #21262d;
+      color: #ffffff;
+    }
+
+    tr:nth-child(even) td { background: rgba(255, 255, 255, 0.025); }
+
+    ul {
+      padding-left: 1.45rem;
+      margin-top: 0.4rem;
+      margin-bottom: 1.2rem;
+    }
+
+    li { margin: 0.35rem 0; }
+
+    blockquote {
+      margin: 20px 0;
+      padding: 14px 18px;
+      color: var(--muted);
+      border-left: 4px solid var(--accent-2);
+      background: rgba(210, 153, 34, 0.08);
+      border-radius: 10px;
+    }
+
+    code {
+      background: rgba(110, 118, 129, 0.22);
+      padding: 0.15em 0.35em;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 720px) {
+      .page { width: min(100% - 20px, 1100px); padding: 24px 0 48px; }
+      .content { padding: 22px; border-radius: 14px; }
+      table { display: block; overflow-x: auto; }
+    }
+  </style>
 </head>
 <body>
-  <h1>BoaOps Security Readiness Portfolio</h1>
-  <p>Portfolio coming soon.</p>
+  <main class="page">
+    <article class="content">
+<h1>Spencer Karenbauer | Security Engineering Portfolio</h1>
+<h3>Security Architect | Founder | Readiness Automation Builder</h3>
+<p>I build security readiness and compliance automation systems that help teams turn scattered inputs into structured, review-ready outputs across RMF, FedRAMP, CMMC, NIST 800-53, DevSecOps, cloud security, and vulnerability management.</p>
+<p><strong>Website:</strong> <a href="https://blackopsadvisory.ai">https://blackopsadvisory.ai</a><br />
+<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/spencer-karenbauer-137941129/">https://www.linkedin.com/in/spencer-karenbauer-137941129/</a><br />
+<strong>Email:</strong> spencer.karenbauer@blackopsadvisory.ai</p>
+<hr />
+<h2>Portfolio Summary</h2>
+<p>This portfolio highlights private MVPs, security automation workflows, and DevSecOps/compliance projects I have built or led.</p>
+<p>My active repositories are private because they contain proprietary product logic, security-sensitive workflows, compliance decision logic, and client-adjacent implementation patterns. This portfolio provides a sanitized view of the work, including project scope, architecture, technical approach, outputs, and what I can walk through live.</p>
+<hr />
+<h2>Featured Projects</h2>
+<table>
+<thead>
+<tr>
+  <th>Project</th>
+  <th>Type</th>
+  <th>What It Shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>BoaOps Readiness Engine</td>
+  <td>Private MVP / Product Build</td>
+  <td>Security readiness automation, evidence intake, artifact generation, AI-assisted compliance workflows</td>
+</tr>
+<tr>
+  <td>ATO Accelerator</td>
+  <td>Private MVP / AWS-hosted Demo</td>
+  <td>RMF/ATO package generation, impact-level logic, document automation, compliance workflow design</td>
+</tr>
+<tr>
+  <td>DevSecOps Tooling Assessment</td>
+  <td>Client Delivery / Advisory</td>
+  <td>AppSec tooling strategy, vulnerability workflow design, executive roadmap creation</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1>Project 1: BoaOps Readiness Engine</h1>
+<p><strong>Type:</strong> Private MVP / Security readiness platform</p>
+<p><strong>Role:</strong> Founder, product owner, security architect, builder</p>
+<p><strong>Status:</strong> Active MVP</p>
+<p><strong>Demo:</strong> <a href="https://drive.google.com/file/d/1_pCSkfOkBc07zE9z1-h_Xx0hTilop8Xt/view?usp=sharing">https://drive.google.com/file/d/1_pCSkfOkBc07zE9z1-h_Xx0hTilop8Xt/view?usp=sharing</a></p>
+<p>The demo is sanitized and intentionally excludes proprietary logic, customer data, sensitive implementation details, and private repository code.</p>
+<p><strong>Repository:</strong> Private due to proprietary product logic</p>
+<h2>Problem</h2>
+<p>Teams preparing for security reviews often have scattered evidence, incomplete documentation, unclear control narratives, and no clean way to determine whether they are ready for review.</p>
+<p>The challenge is not always that the work has not been done. Often, the issue is that the work has not been organized into a defensible package that a reviewer, assessor, or security authority can evaluate efficiently.</p>
+<h2>What I Built</h2>
+<p>BoaOps is a readiness packaging engine that helps teams convert incomplete security and compliance inputs into structured, review-ready outputs.</p>
+<p>Core capabilities include:</p>
+<ul>
+<li>Structured security intake</li>
+<li>Framework selection and mapping</li>
+<li>Evidence intake workflows</li>
+<li>Control mapping logic</li>
+<li>Readiness scoring approach</li>
+<li>AI-assisted compliance Q&amp;A</li>
+<li>Dynamic artifact generation</li>
+<li>OSCAL-style structured output concepts</li>
+<li>Security-focused data handling patterns</li>
+</ul>
+<h2>Example Outputs</h2>
+<p>BoaOps is designed to support or generate:</p>
+<ul>
+<li>System Security Plan</li>
+<li>Plan of Action and Milestones</li>
+<li>Security Assessment Plan</li>
+<li>Security Assessment Report</li>
+<li>Risk Assessment Report</li>
+<li>Concept of Operations</li>
+<li>Configuration Management Plan</li>
+<li>Incident Response Plan</li>
+<li>Continuous Monitoring documentation</li>
+<li>OSCAL-style JSON outputs</li>
+</ul>
+<h2>Tech Stack / Concepts</h2>
+<ul>
+<li>Python</li>
+<li>FastAPI</li>
+<li>Docker</li>
+<li>Pydantic</li>
+<li>AWS-hosted demo environment</li>
+<li>Document generation</li>
+<li>Evidence intake workflows</li>
+<li>Compliance mapping logic</li>
+<li>AI assistant workflows</li>
+<li>Readiness scoring approach</li>
+<li>Secure session/data-handling concepts</li>
+</ul>
+<h2>What I Can Walk Through</h2>
+<ul>
+<li>Product demo</li>
+<li>Architecture</li>
+<li>Intake workflow</li>
+<li>Evidence-to-output flow</li>
+<li>Generated artifacts</li>
+<li>Data-handling model</li>
+<li>Technical design decisions</li>
+<li>Private repo walkthrough by screen share when appropriate</li>
+</ul>
+<hr />
+<h1>Project 2: ATO Accelerator</h1>
+<p><strong>Type:</strong> Private MVP / RMF and ATO automation workflow</p>
+<p><strong>Role:</strong> Security automation builder</p>
+<p><strong>Status:</strong> AWS-hosted demo / Private MVP</p>
+<p><strong>Demo:</strong> <a href="https://drive.google.com/file/d/1qqFjIKqrebFh3PSE3VAN4NjB5YMvUas6/view?usp=drive_link">https://drive.google.com/file/d/1qqFjIKqrebFh3PSE3VAN4NjB5YMvUas6/view?usp=drive_link</a></p>
+<p>The demo is sanitized and intentionally excludes proprietary logic, customer data, sensitive implementation details, and private repository code.</p>
+<p><strong>Repository:</strong> Private</p>
+<h2>Problem</h2>
+<p>ATO and RMF documentation is often slow, repetitive, and inconsistent. Teams commonly rely on static templates that do not adapt well to system type, impact level, cloud environment, deployment model, or data classification.</p>
+<p>This creates rework, inconsistent narratives, and weak linkage between system context and required documentation.</p>
+<h2>What I Built</h2>
+<p>I built an ATO automation workflow that dynamically generates security documentation based on structured system inputs.</p>
+<p>The tool uses inputs such as:</p>
+<ul>
+<li>System type</li>
+<li>Cloud environment</li>
+<li>Deployment model</li>
+<li>Impact level</li>
+<li>Data classification</li>
+<li>Framework selection</li>
+<li>Security control focus areas</li>
+<li>Compliance needs</li>
+</ul>
+<h2>Example Outputs</h2>
+<p>The workflow supports generation of:</p>
+<ul>
+<li>ATO Summary</li>
+<li>System Security Plan</li>
+<li>Plan of Action and Milestones</li>
+<li>Concept of Operations</li>
+<li>Configuration Management Plan</li>
+<li>Incident Response Plan</li>
+<li>Continuous Monitoring documentation</li>
+<li>Compliance recommendations</li>
+<li>Control focus areas</li>
+<li>Downloadable document packages</li>
+</ul>
+<h2>Tech Stack / Concepts</h2>
+<ul>
+<li>Python</li>
+<li>FastAPI</li>
+<li>Docker</li>
+<li>AWS deployment</li>
+<li>DOCX generation</li>
+<li>PDF generation</li>
+<li>Backend decision logic</li>
+<li>RMF documentation structure</li>
+<li>NIST 800-53 mapping concepts</li>
+<li>Impact-level driven logic</li>
+<li>Cloud environment mapping</li>
+</ul>
+<h2>Why It Matters</h2>
+<p>This project demonstrates my ability to take a manual, compliance-heavy workflow and turn it into a repeatable software-driven process that produces usable security outputs.</p>
+<hr />
+<h1>Project 3: DevSecOps Tooling Assessment</h1>
+<p><strong>Type:</strong> Client-facing security assessment<br />
+<strong>Role:</strong> Principal DevSecOps / security advisor<br />
+<strong>Status:</strong> Delivered engagement</p>
+<h2>Problem</h2>
+<p>Organizations often adopt multiple AppSec and DevSecOps tools without a clear operating model for how findings move from discovery to prioritization, remediation, validation, and reporting.</p>
+<p>Common issues include:</p>
+<ul>
+<li>Tool overlap</li>
+<li>Inconsistent vulnerability workflows</li>
+<li>Weak developer handoff</li>
+<li>Unclear remediation ownership</li>
+<li>Limited executive visibility</li>
+<li>Poor alignment between AppSec, DevOps, and risk teams</li>
+</ul>
+<h2>Scope</h2>
+<p>The assessment considered tools and workflows such as:</p>
+<ul>
+<li>GitHub</li>
+<li>Azure DevOps</li>
+<li>Veracode</li>
+<li>Snyk</li>
+<li>StackHawk</li>
+<li>Vulnerability management processes</li>
+<li>Secure SDLC workflows</li>
+<li>Developer remediation paths</li>
+<li>Security reporting needs</li>
+</ul>
+<h2>What I Delivered</h2>
+<ul>
+<li>Current-state tooling review</li>
+<li>Gap assessment</li>
+<li>Future-state recommendations</li>
+<li>Phased remediation roadmap</li>
+<li>Tooling transition considerations</li>
+<li>Security workflow improvements</li>
+<li>Executive-facing implementation plan</li>
+</ul>
+<h2>Outcome</h2>
+<p>The work helped define a clearer path for AppSec modernization, vulnerability management alignment, developer adoption, and reduced tooling friction across development teams.</p>
+<hr />
+<h2>Screenshots / Demo Material</h2>
+<p>Sanitized screenshots and demo walkthroughs can be provided for:</p>
+<ul>
+<li>BoaOps dashboard</li>
+<li>ATO Accelerator intake flow</li>
+<li>Generated document outputs</li>
+<li>AI compliance assistant workflow</li>
+<li>Readiness results</li>
+<li>Sample artifact package</li>
+</ul>
+<blockquote>
+<p>Screenshots are intentionally limited in this public repository to avoid exposing proprietary workflows, sensitive compliance logic, or non-public product details.</p>
+</blockquote>
+<hr />
+<h2>Technical Strengths</h2>
+<h3>Security Engineering</h3>
+<ul>
+<li>Security architecture</li>
+<li>Application security</li>
+<li>DevSecOps</li>
+<li>Vulnerability management</li>
+<li>Cloud security</li>
+<li>Authorization readiness</li>
+<li>Risk-based remediation planning</li>
+</ul>
+<h3>Compliance / Frameworks</h3>
+<ul>
+<li>RMF</li>
+<li>FedRAMP</li>
+<li>CMMC</li>
+<li>NIST 800-53</li>
+<li>NIST 800-171</li>
+<li>FAR 52.204-21</li>
+<li>SSPs</li>
+<li>POA&amp;Ms</li>
+<li>CONMON</li>
+<li>Security assessment support</li>
+</ul>
+<h3>Product / Automation</h3>
+<ul>
+<li>Founder-led MVP development</li>
+<li>Python backend workflows</li>
+<li>FastAPI applications</li>
+<li>Dockerized deployments</li>
+<li>AWS-hosted demos</li>
+<li>Dynamic document generation</li>
+<li>Evidence intake workflows</li>
+<li>AI-assisted compliance support</li>
+<li>Structured readiness outputs</li>
+</ul>
+<hr />
+<h2>Why My Active Repos Are Private</h2>
+<p>My active MVP repositories are private because they contain:</p>
+<ul>
+<li>Proprietary product logic</li>
+<li>Security-sensitive workflows</li>
+<li>Compliance decision logic</li>
+<li>Internal scoring concepts</li>
+<li>Private architecture decisions</li>
+<li>Customer-adjacent workflow assumptions</li>
+<li>Non-public product roadmap details</li>
+</ul>
+<p>I do not expose core source code publicly, but I can clearly walk through the product, architecture, workflow, outputs, implementation decisions, and security considerations.</p>
+<hr />
+<h2>Available for Walkthrough</h2>
+<p>I can walk through:</p>
+<ul>
+<li>Live demo</li>
+<li>Architecture</li>
+<li>Screenshots</li>
+<li>Sample generated artifacts</li>
+<li>Data-handling approach</li>
+<li>Technical decisions</li>
+<li>Private repo structure</li>
+<li>Product roadmap and tradeoffs</li>
+</ul>
+<hr />
+<h2>Contact</h2>
+<p><strong>Website:</strong> <a href="https://blackopsadvisory.ai">https://blackopsadvisory.ai</a><br />
+<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/spencer-karenbauer-137941129/">https://www.linkedin.com/in/spencer-karenbauer-137941129/</a><br />
+<strong>Email:</strong> spencer.karenbauer@blackopsadvisory.ai</p>
+
+    </article>
+  </main>
 </body>
 </html>
